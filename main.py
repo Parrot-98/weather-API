@@ -23,3 +23,4 @@ print(f"Humidity: {data['current']['humidity']}%")
 
 
 
+
