@@ -13,7 +13,7 @@ url = f"http://api.weatherapi.com/v1/current.json?key={api_key}&q={city}&aqi=no"
 response = requests.get(url)
 data = response.json()
 
-# Print weather information
+
 print(f"City: {data['location']['name']}, {data['location']['country']}")
 print(f"Temperature: {data['current']['temp_c']}°C")
 print(f"Condition: {data['current']['condition']['text']}")
