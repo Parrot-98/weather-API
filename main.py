@@ -1,9 +1,9 @@
 import requests
 
-# Your API key
+# API key
 api_key = "fe96ceb60ea24f1a8f130657253012"
 
-# City you want weather for
+
 city = "new york"
 
 # API endpoint
