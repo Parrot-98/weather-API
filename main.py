@@ -4,7 +4,7 @@ import requests
 api_key = "fe96ceb60ea24f1a8f130657253012"
 
 
-city = "new york"
+city = "Chicago"
 
 # API endpoint
 url = f"http://api.weatherapi.com/v1/current.json?key={api_key}&q={city}&aqi=no"
